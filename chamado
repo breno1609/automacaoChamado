@@ -1,0 +1,91 @@
+import pyautogui
+import pyperclip
+import time
+
+#ABRIR O SISTEMA
+pyautogui.hotkey("ctrl", "t")
+pyautogui.sleep(4)
+pyautogui.write("https://secportal.com.br/logon.asp")
+pyautogui.press("enter")
+pyautogui.sleep(6)
+pyautogui.write("43123167")#MATRICULA
+pyautogui.hotkey("tab")
+pyautogui.sleep(6)
+pyautogui.write("SEC@2021")#SENHA
+pyautogui.sleep(6)
+pyautogui.hotkey("enter")
+pyautogui.sleep(15)
+
+#ABRIR CHAMADO
+pyautogui.click(x=1234, y=169)#CLICAR EM CSC
+pyautogui.sleep(3)
+
+pyautogui.click(x=353, y=248)#SERVIÇOS ACADEMICOS
+pyautogui.sleep(3)
+
+pyautogui.click(x=533, y=272)#INGRESSO A SAIDA DE ALUNOS
+pyautogui.sleep(3)
+
+pyautogui.click(x=821, y=703)#PAGINA 2
+pyautogui.sleep(2)
+
+pyautogui.click(x=521, y=248)#MOVIMENTAÇÕES ACADEMICAS
+pyautogui.sleep(15)
+
+pyautogui.click(x=225, y=206)#BARRA DE NOME DO CANDIDATO
+
+pyautogui.write("BRENO ALBERGARIA ARGOLO")#NOME DO ALUNO
+pyautogui.sleep(1)
+pyautogui.hotkey("tab")
+
+pyautogui.write("202102059241")#MATRICULA DO ALUNO
+pyautogui.sleep(1)
+pyautogui.hotkey("tab")
+
+pyautogui.write("06645928564")#CPF DO ALUNO
+pyautogui.sleep(1)
+
+pyautogui.click(x=354, y=366)#SETA DAS OPÇÕES DE SOLICITAÇÃO
+pyautogui.sleep(2)
+
+pyautogui.click(x=167, y=490)#OPÇÃO REGULARIZAÇÃO ACADEMICA
+pyautogui.sleep(1)
+
+pyautogui.click(x=256, y=375)#SETA DE OPÇÃO DE TIPO DE REGULARIZAÇÃO
+pyautogui.sleep(2)
+
+pyautogui.click(x=120, y=415)#OPÇÃO ACERTOS ACADEMICOS
+pyautogui.sleep(2)
+
+pyautogui.click(x=102, y=471)#CLICA NA BARRA DE PESQUISA DE CAMPUS
+pyautogui.write("PARALELA")
+pyautogui.sleep(2)
+
+pyautogui.click(x=117, y=516)#BARRA DE PESQUISA PERIODO
+pyautogui.write("2022.1")
+
+pyautogui.click(x=250, y=573)#SETA OPÇÃO BOLSISTA
+pyautogui.sleep(1)
+
+pyautogui.click(x=72, y=638)#OPÇÃO SIM DE BOLSISTA
+pyautogui.sleep(1)
+
+pyautogui.click(x=197, y=619)#BARRA DEPESQUISA TIPO DE BOLSA
+pyautogui.sleep(2)
+
+pyautogui.write("MIGRACAO")
+pyautogui.sleep(2)
+
+pyautogui.click(x=319, y=672)#BARRA DE PESQUISA MENSAGEM
+pyautogui.sleep(2)
+
+pyautogui.write("TESTS")
+pyautogui.sleep(2)
+
+pyautogui.click(x=1223, y=706)#OPÇÃO COFIRMAR 1º PAGINA
+pyautogui.sleep(35)
+
+pyautogui.click(x=168, y=601)#OPÇÃO CANCELARº PAGINA
+pyautogui.sleep(4)
+
+pyautogui.click(x=764, y=172)
