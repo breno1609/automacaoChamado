@@ -8,10 +8,10 @@ pyautogui.sleep(4)
 pyautogui.write("https://secportal.com.br/logon.asp")
 pyautogui.press("enter")
 pyautogui.sleep(6)
-pyautogui.write("43123167")#MATRICULA
+pyautogui.write("")#MATRICULA
 pyautogui.hotkey("tab")
 pyautogui.sleep(6)
-pyautogui.write("SEC@2021")#SENHA
+pyautogui.write("")#SENHA
 pyautogui.sleep(6)
 pyautogui.hotkey("enter")
 pyautogui.sleep(15)
