@@ -77,7 +77,7 @@ pyautogui.write("TESTS")
 pyautogui.sleep(2)
 
 pyautogui.click(x=1229, y=707)#OPÇÃO COFIRMAR 1º PAGINA
-pyautogui.sleep(35)
+pyautogui.sleep(25)
 
 pyautogui.click(x=172, y=605)#OPÇÃO CANCELARº PAGINA
 pyautogui.sleep(4)
