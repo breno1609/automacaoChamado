@@ -38,11 +38,11 @@ pyautogui.write("BRENO ALBERGARIA ARGOLO")#NOME DO ALUNO
 pyautogui.sleep(1)
 pyautogui.hotkey("tab")
 
-pyautogui.write("202102059241")#MATRICULA DO ALUNO
+pyautogui.write("")#MATRICULA DO ALUNO
 pyautogui.sleep(1)
 pyautogui.hotkey("tab")
 
-pyautogui.write("06645928564")#CPF DO ALUNO
+pyautogui.write("")#CPF DO ALUNO
 pyautogui.sleep(1)
 
 pyautogui.click(x=354, y=366)#SETA DAS OPÇÕES DE SOLICITAÇÃO
